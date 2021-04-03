@@ -1,0 +1,17 @@
+name: Build only image
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build image job
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+      - name: Install dependencies
+        run: npm install
+      - name: Execute tests
+        run: npm run test
