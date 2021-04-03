@@ -1,4 +1,4 @@
-name: Build only image
+name: Execute tests
 on:
   push:
     branches:
