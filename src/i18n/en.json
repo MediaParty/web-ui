@@ -1,0 +1,8 @@
+{
+  "appName": "MediaParty",
+  "home": {
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+    "joinParty": "Join existing party",
+    "createParty": "Create new party"
+  }
+}
