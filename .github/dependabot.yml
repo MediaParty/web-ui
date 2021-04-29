@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: svelte-check
+    versions:
+    - 1.5.0
+  - dependency-name: tslib
+    versions:
+    - 2.2.0
