@@ -42,7 +42,7 @@
     "node-sass": "^6.0.0",
     "sirv-cli": "^1.0.12",
     "svelte-i18n": "^3.3.9",
-    "svelte-spa-router": "^3.1.0"
+    "svelte-spa-router": "^3.2.0"
   },
   "jest": {
     "transform": {
